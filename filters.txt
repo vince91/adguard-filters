@@ -84,3 +84,10 @@ youtube.com##button[aria-label="Create"]
 
 ! Hide the Youtube Apps button in the left sidebar
 youtube.com##button[aria-label="YouTube apps"]
+
+! ----------------
+! --- LE MONDE ---
+! ----------------
+
+! Hide the contribution button
+lemonde.fr##a.comments__active
