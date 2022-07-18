@@ -25,7 +25,7 @@ twitch.tv##[aria-label="Recommended Channels"]
 twitch.tv##[aria-label$="Viewers Also Watch"]
 
 ! Hide the recommend channels on the following page
-twitch.tv##span:has-text(Recommended channels):upward(5)
+twitch.tv##span:has-text(Recommended channels):upward(4)
 
 ! Hide the live categories on the following page
 twitch.tv##p:has-text(You can now follow your favorite games):upward(2)
@@ -47,6 +47,9 @@ twitch.tv##.top-nav__prime
 
 ! Hide the notifications button in the title bar
 twitch.tv##button[aria-label="Open Notifications"]
+
+! Hide the notification red badge in the title bar
+twitch.tv##div[data-a-target="tw-animation-target"]
 
 ! Hide the "Get Bits" button in the title bar
 twitch.tv##button[data-a-target="top-nav-get-bits-button"]
