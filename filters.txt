@@ -1,0 +1,38 @@
+! --- TWITCH ----
+! Left sidebar
+twitch.tv##[aria-label="Recommended Channels"]
+twitch.tv##[aria-label$="Viewers Also Watch"]
+
+! Following page
+twitch.tv##span:has-text(Recommended channels):upward(5)
+twitch.tv##h4:has-text(Live categories):upward(3)
+twitch.tv##a[data-a-target="following-games-tab"]
+
+! Entire front page
+twitch.tv##.front-page-carousel:upward(6)
+
+! Title bar
+twitch.tv##a[data-a-target="browse-link"]
+twitch.tv##button[data-a-target="ellipsis-button"]
+twitch.tv##div[data-a-target="nav-search-box"]
+twitch.tv##button[data-a-target="prime-offers-icon"]
+twitch.tv##button[aria-label="Open Notifications"]
+twitch.tv##button[data-a-target="top-nav-get-bits-button"]
+
+! --- YOUTUBE ---
+! Right side related
+youtube.com###related
+
+! Front page
+youtube.com##ytd-browse[page-subtype="home"]
+
+! Left sidebar
+youtube.com##a[title="Explore"]
+youtube.com##a[title="Home"]
+youtube.com##a[title="Shorts"]
+youtube.com##h3:has-text(More from YouTube):upward(1)
+youtube.com###footer
+
+! Title bar
+youtube.com##button[aria-label="Create"]
+youtube.com##button[aria-label="YouTube apps"]
