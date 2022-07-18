@@ -1,6 +1,22 @@
 ! ---------------
+! --- TWITTER ---
+! ---------------
+
+! Hide everything in the right sidebar (trends, suggestions etc.) expect the search input
+twitter.com##div[data-testid="sidebarColumn"] > div > div:nth-child(2) > div > div > div > div:not(:first-child)
+
+!||twitter.com/i/api/1.1/users/recommendations.json
+!||twitter.com/i/api/2/guide.json
+
+! ---------------
 ! --- TWITCH ----
 ! ---------------
+
+! Redirect the homepage to the following page
+twitch.tv#%#if (location.pathname === "/") location.pathname = '/directory/following';
+
+! Hide the home button in the title bar
+twitch.tv##[data-a-target="home-link"]
 
 ! Hide recommend channels in the left sidebar
 twitch.tv##[aria-label="Recommended Channels"]
