@@ -43,8 +43,7 @@ twitch.tv##a[data-a-target="browse-link"]
 twitch.tv##button[data-a-target="ellipsis-button"]
 
 ! Hide the loots+badge button in the title bar
-twitch.tv##div[data-a-target="tw-animation-target"]
-twitch.tv##button[data-a-target="prime-offers-icon"]
+twitch.tv##.top-nav__prime
 
 ! Hide the notifications button in the title bar
 twitch.tv##button[aria-label="Open Notifications"]
