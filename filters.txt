@@ -49,7 +49,7 @@ twitch.tv##.top-nav__prime
 twitch.tv##button[aria-label="Open Notifications"]
 
 ! Hide the notification red badge in the title bar
-twitch.tv##div[data-a-target="tw-animation-target"]
+twitch.tv##div[data-test-selector="onsite-notifications__badge"]
 
 ! Hide the "Get Bits" button in the title bar
 twitch.tv##button[data-a-target="top-nav-get-bits-button"]
