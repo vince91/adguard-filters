@@ -45,12 +45,6 @@ twitch.tv##button[data-a-target="ellipsis-button"]
 ! Hide the loots+badge button in the title bar
 twitch.tv##.top-nav__prime
 
-! Hide the notifications button in the title bar
-twitch.tv##button[aria-label="Open Notifications"]
-
-! Hide the notification red badge in the title bar
-twitch.tv##div[data-test-selector="onsite-notifications__badge"]
-
 ! Hide the "Get Bits" button in the title bar
 twitch.tv##button[data-a-target="top-nav-get-bits-button"]
 
