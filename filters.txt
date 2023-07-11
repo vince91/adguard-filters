@@ -58,7 +58,7 @@ youtube.com###related
 ! Hide the entire front page
 youtube.com##ytd-browse[page-subtype="home"]
 
-! Hide the explore button in the left sidebar
+! Hide the explore section in the left sidebar
 youtube.com#?#ytd-guide-section-renderer:contains(Explore)
 
 ! Hide the home button in the left sidebar
@@ -67,11 +67,11 @@ youtube.com##a[title="Home"]
 ! Hide the shorts button in the left sidebar
 youtube.com##a[title="Shorts"]
 
-! Hide the "More from youtube" button in the left sidebar
+! Hide the "More from youtube" section in the left sidebar
 youtube.com##h3:has-text(More from YouTube):upward(1)
 
 ! Hide the footer in the left sidebar
-youtube.com###footer
+youtube.com###guide #footer
 
 ! Hide the create button in the left sidebar
 youtube.com##button[aria-label="Create"]
@@ -88,10 +88,3 @@ youtube.com#?#ytd-shelf-renderer:contains(For you)
 youtube.com#?#ytd-shelf-renderer:contains(Previously watched)
 youtube.com#?#ytd-shelf-renderer:contains(From related searches)
 youtube.com#?#ytd-horizontal-card-list-renderer:contains(People also search for)
-
-! ----------------
-! --- LE MONDE ---
-! ----------------
-
-! Hide the contribution button
-lemonde.fr##a.comments__active
