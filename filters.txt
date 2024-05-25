@@ -64,9 +64,6 @@ youtube.com#?#ytd-guide-section-renderer:contains(Explore)
 ! Hide the home button in the left sidebar
 youtube.com##a[title="Home"]
 
-! Hide the shorts button in the left sidebar
-youtube.com##a[title="Shorts"]
-
 ! Hide the "More from youtube" section in the left sidebar
 youtube.com##h3:has-text(More from YouTube):upward(1)
 
